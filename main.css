@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+
+.background{
+    background-image: url("images/apex.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo a{
+    text-decoration: none;
+    color: rgb(255, 240, 35);
+    font-size: 25px;
+    
+}
+.logo{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin:25px;
+    font-family: 'Iceberg', cursive;
+}
+
+.logo :hover {
+    color: brown;
+}
+.navbar :hover{
+    color: brown;
+}
+
+
+.content a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+.navbar a{
+    border: 1px;
+    border-style: groove;
+    border-radius: 80%;
+    background-color: rgba(255, 253, 253, 0.3);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 240, 35);
+    font-size: 30px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    font-family: 'Iceberg', cursive;
+}
+
+.space{
+    text-align: center;
+    font-size: 20px;
+    text-decoration-line: underline;
+    font-family: 'Iceberg', cursive;
+    color: rgb(255, 240, 35);
+    padding: 10px;
+
+}
+
+
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    column-width: 50px;
+    text-align: center;
+    font-family: 'Iceberg', cursive;
+    font-size: medium;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 240, 35);
+    margin: 25px;
+    padding: 30px;
+
+ }
+
+.center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(201, 195, 252, 0.2);
+    color: rgb(182, 172, 37);
+    border-style: ridge;
+    border-radius: 500px;
+    border-width: 12px;
+    border-color: rgba(248, 245, 245, 0.5);
+    margin-top: 50px;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Iceberg', cursive;
+    font-size: 35px;
+
+    
+}
+
+
+.middle img{
+    height: 350px;
+    width: 800px;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+}
+
+
+.sound audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
